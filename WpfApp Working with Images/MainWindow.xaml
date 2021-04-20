@@ -1,0 +1,74 @@
+﻿<Window x:Class="WpfApp_Working_with_Images.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Working_with_Images"
+        mc:Ignorable="d"
+        Title="Gallery" Height="600" Width="1000" WindowStartupLocation="CenterScreen" SizeChanged="Window_SizeChanged"
+        MinWidth="400" MinHeight="600">
+    <Grid>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="90*"/>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+
+            <Menu.BitmapEffect>
+                <DropShadowBitmapEffect/>
+            </Menu.BitmapEffect>
+
+            <MenuItem Header="_File" Padding="10" FontSize="25" FontFamily="Palatino Linotype">
+                <MenuItem Header="New" FontSize="16" FontFamily="Microsoft Sans-serif"></MenuItem>
+                <MenuItem Header="Open" FontSize="16" FontFamily="Microsoft Sans-serif"></MenuItem>
+                <MenuItem Header="Save" FontSize="16" FontFamily="Microsoft Sans-serif"></MenuItem>
+                <MenuItem Header="Save as" FontSize="16" FontFamily="Microsoft Sans-serif"></MenuItem>
+                <MenuItem Header="Exit" FontSize="16" FontFamily="Microsoft Sans-serif" Foreground="Red"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_Edit" Padding="10" FontSize="25" FontFamily="Palatino Linotype">
+                <MenuItem Header="Add File" FontSize="16" FontFamily="Microsoft Sans-serif"></MenuItem>
+                <MenuItem Header="Add Folder" FontSize="16" FontFamily="Microsoft Sans-serif"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_View" Padding="10" FontSize="25" FontFamily="Palatino Linotype">
+                <MenuItem Name="MnItmTiles" Header="Tiles" FontSize="16" FontFamily="Microsoft Sans-serif" Click="MnItmTiles_Click"></MenuItem>
+                <MenuItem Name="MnItmSmallIcons" Header="Small Icons" FontSize="16" FontFamily="Microsoft Sans-serif" Click="MnItmSmallIcons_Click"></MenuItem>
+                <MenuItem Name="MnItmNormalIcons" Header="Normal Icons" FontSize="16" FontFamily="Microsoft Sans-serif" Click="MnItmNormalIcons_Click"></MenuItem>
+                <MenuItem Header="Details" FontSize="16" FontFamily="Microsoft Sans-serif"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_About" Padding="10" FontSize="25" FontFamily="Palatino Linotype">
+                <MenuItem.ToolTip>
+                    <StackPanel>
+                        <TextBlock>You can drop files into white arena and if you click one of this image you navigate to another window.</TextBlock>
+                        <Separator></Separator>
+                        <TextBlock HorizontalAlignment="Right" FontWeight="ExtraBold">Copyright Gallery.co</TextBlock>
+                    </StackPanel>
+                </MenuItem.ToolTip>
+            </MenuItem>
+
+        </Menu>
+
+        <Grid Grid.Row="1"  Margin="10, 20">
+
+            <ListBox Name="LstBxImage" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="WhiteSmoke" BorderThickness="0"
+                     AllowDrop="True" DragEnter="LstBxImage_DragEnter" DragLeave="LstBxImage_DragLeave" Drop="LstBxImage_Drop">
+
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel></WrapPanel>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+
+
+
+            </ListBox>
+
+        </Grid>
+
+    </Grid>
+</Window>

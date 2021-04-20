@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\bin\Debug\WpfApp Working with Images.exe.config
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\bin\Debug\WpfApp Working with Images.exe
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\bin\Debug\WpfApp Working with Images.pdb
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images_MarkupCompile.cache
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images_MarkupCompile.lref
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images.g.resources
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp_Working_with_Images.Properties.Resources.resources
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images.exe
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\WpfApp Working with Images.pdb
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\HelperWindow.g.cs
+C:\Users\Admin\source\repos\WpfApp Working with Images\WpfApp Working with Images\obj\Debug\HelperWindow.baml
